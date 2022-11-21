@@ -14,14 +14,23 @@ Maşınlar divarlara və ya yolun hər hansı digər maneələrinə toxunmadan y
 Şəbəkənin öyrənməsi üçün computer science-da “genetic algorithm” adlanan alqoritmdən istfadə olunub. Alqotirmi təbiətdəki “natural selection”a oxşatmaq olar. İlk gedişlərdə N sayda maşın yaranır. Sonra maşınlar sensorlarından istfadə edərək sürətlərini tənzimləyə-tənzimləyə irəliləyirlər. Digər maşınlara nisbətən daha uğurlu (daha irəliyə gedən) maşınlar, bir sonrakı gedişdə birləşdirilir. Beləcə daha uğurlu “valideyn” maşınlardan uğurlu “övlad maşın alınır”. Hər gedişdə maşınlar bu formada birləşir, bəzən fərqli yolları seçən maşınlar da birləşə bilir, belə olduqda artıq fərqli ssenarilərə öyrəşən “təkamül etmiş” maşınlar alırıq.
 
 # Proyektin kodunun izahı.
-Genetic alqoritmin mütləq declare olunmalı dəyişən və operatorları var. Dəyişənlər sırası ilə :
+Genetic alqoritmin mütləq declare olunmalı dəyişən və operatorları var.
+### Dəyişənlər sırası ilə :
+
 currentPopulation – mövcud maşın sayı 
+
 intermediatePopulation – birləşən maşınların sayı
+
 newPopulation – yeni maşın sayı (birləşmədən sonra)
 
-Operatorlar:
+### Operatorlar:
+
 Selection – uğurlu olan valideynlərin seçilməsi
+
 Recombination – uğurlu olan valideynlərin birləşdirilməsi
+
 Mutation – fərqli yolları gedib uğurlu olan valideynlərdən əmələ gələn mutasiya olmuş maşın
+
 PopulationCounter – mövcud nəsillərin sayı
+
 SortPopulation – uğursuz nəsillər uğurlular ilə birləşməsin deyə nəsillərin sort olunması
