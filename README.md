@@ -10,7 +10,7 @@ Maşınlar divarlara və ya yolun hər hansı digər maneələrinə toxunmadan y
 <img width="435" alt="image" src="https://user-images.githubusercontent.com/86208821/202951722-c354e1cf-06a5-42c4-9d69-0472f1d8bd2d.png">
 Şəbəkənin görüşünü. (Yaşıl xətlər mümkün variantları, Qırmızılar isə ya şərtlər ödənilmədiyinə görə yada ümumiyyətlə mümkünsüz variantları göstərir.) Canlı simulyasiyada ən öndə olan maşın hansıdırsa, onun neural şəbəkəsi vizual formada göstərilir.
 
-# Neural networkün öyrənməsi alqoritmi.
+# Neural networkün öyrənməsi alqoritmi
 Şəbəkənin öyrənməsi üçün computer science-da “genetic algorithm” adlanan alqoritmdən istfadə olunub. Alqotirmi təbiətdəki “natural selection”a oxşatmaq olar. İlk gedişlərdə N sayda maşın yaranır. Sonra maşınlar sensorlarından istfadə edərək sürətlərini tənzimləyə-tənzimləyə irəliləyirlər. Digər maşınlara nisbətən daha uğurlu (daha irəliyə gedən) maşınlar, bir sonrakı gedişdə birləşdirilir. Beləcə daha uğurlu “valideyn” maşınlardan uğurlu “övlad maşın alınır”. Hər gedişdə maşınlar bu formada birləşir, bəzən fərqli yolları seçən maşınlar da birləşə bilir, belə olduqda artıq fərqli ssenarilərə öyrəşən “təkamül etmiş” maşınlar alırıq.
 
 # Proyektin kodunun izahı
